@@ -87,3 +87,6 @@ buildNumber.properties
 
 # INTELLIJ
 .idea
+
+# Project files
+*.csv

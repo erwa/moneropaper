@@ -46,7 +46,7 @@ Peak memory usage: 1.51 GB
 
 - Compile the Neo4j plugin in the `neo4j-plugin` folder: `mvn package`
 - Put the resulting `mixinsudoku.jar` into the `plugins` folder of your Neo4j installation
-- Download the [APOC plugin](https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/3.2.0.4) and also put it into the `plugins` folder
+- Download the [APOC plugin](https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/3.4.0.2) and also put it into the `plugins` folder
 - Allow unrestricted access by adding `dbms.security.procedures.unrestricted=mixinsudoku.*,apoc.*` to your Neo4j config
 - Start the database
 - Run the following cypher commands (through the web interface or the command line interface)
